@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Invokers">
+      <UniqueIdentifier>{230395d3-2b58-4e3f-9f88-3209372d9ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Invokers">
+      <UniqueIdentifier>{4abd640b-0353-4c86-bc1f-f566d4700078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Commands">
+      <UniqueIdentifier>{03d5cbba-e3d0-4340-93a8-b984efc2e26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Receivers">
+      <UniqueIdentifier>{44e13c3c-88b9-4bf6-8fc0-a9d2bf4aa7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Commands">
+      <UniqueIdentifier>{72f57871-3f66-4a71-8d68-2fc3b27e3af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Receivers">
+      <UniqueIdentifier>{8ccfa2ae-b1cb-472e-8d69-f10792affb11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="University.DesignPatterns.SmartHome.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteControl.cpp">
+      <Filter>Исходные файлы\Invokers</Filter>
+    </ClCompile>
+    <ClCompile Include="GarageDoorUpCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="LightOnCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="NoCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoWithCDCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="GarageDoor.cpp">
+      <Filter>Исходные файлы\Receivers</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Исходные файлы\Receivers</Filter>
+    </ClCompile>
+    <ClCompile Include="Stereo.cpp">
+      <Filter>Исходные файлы\Receivers</Filter>
+    </ClCompile>
+    <ClCompile Include="GarageDoorDownCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="LightOffCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoOffCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Fan.cpp">
+      <Filter>Исходные файлы\Receivers</Filter>
+    </ClCompile>
+    <ClCompile Include="FanOnCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="FanOffCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="FanSpeedUpCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="FanSpeedDownCommand.cpp">
+      <Filter>Исходные файлы\Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RemoteControl.h">
+      <Filter>Файлы заголовков\Invokers</Filter>
+    </ClInclude>
+    <ClInclude Include="GarageDoorDownCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="GarageDoorUpCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="LightOffCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="LightOnCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NoCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoOffCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoWithCDCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="GarageDoor.h">
+      <Filter>Файлы заголовков\Receivers</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Файлы заголовков\Receivers</Filter>
+    </ClInclude>
+    <ClInclude Include="Stereo.h">
+      <Filter>Файлы заголовков\Receivers</Filter>
+    </ClInclude>
+    <ClInclude Include="Fan.h">
+      <Filter>Файлы заголовков\Receivers</Filter>
+    </ClInclude>
+    <ClInclude Include="FanOnCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FanOffCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FanSpeedUpCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FanSpeedDownCommand.h">
+      <Filter>Файлы заголовков\Commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
